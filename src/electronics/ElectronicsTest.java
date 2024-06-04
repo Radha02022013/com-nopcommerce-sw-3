@@ -110,7 +110,7 @@ public class ElectronicsTest extends Utility {
         selectByValueFromDropDown(By.id("CreditCardType"), "visa");
         // Fill all the details
         Thread.sleep(2000);
-        sendTextToElement(By.id("CardholderName"), "Shubham");
+        sendTextToElement(By.id("CardholderName"), "Manini");
         sendTextToElement(By.id("CardNumber"), "5413330089010640");
         selectByValueFromDropDown(By.id("ExpireYear"), "2026");
         sendTextToElement(By.id("CardCode"), "123");
