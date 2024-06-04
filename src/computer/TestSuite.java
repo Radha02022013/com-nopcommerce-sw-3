@@ -101,14 +101,14 @@ public class TestSuite extends Utility {
         clickOnElement(By.xpath("//button[@class='button-1 checkout-as-guest-button']"));
 
         //2.22 Fill the all mandatory field
-        sendTextToElement(By.id("BillingNewAddress_FirstName"),"Shubham");   //insert username
-        sendTextToElement(By.id("BillingNewAddress_LastName"),"Lohar");         //insert lastname
-        sendTextToElement(By.id("BillingNewAddress_Email"),"shubham123@gmail.com");    //insert random email id
+        sendTextToElement(By.id("BillingNewAddress_FirstName"),"Manini");   //insert username
+        sendTextToElement(By.id("BillingNewAddress_LastName"),"sheth");         //insert lastname
+        sendTextToElement(By.id("BillingNewAddress_Email"),"manini123@gmail.com");    //insert random email id
         selectByValueFromDropDown(By.id("BillingNewAddress_CountryId"),"233");   //select your country
         Thread.sleep(1000);
         sendTextToElement(By.id("BillingNewAddress_City"),"London");   //insert city name
-        sendTextToElement(By.id("BillingNewAddress_Address1"),"123 Thronbridge Avenue");   //insert address
-        sendTextToElement(By.id("BillingNewAddress_ZipPostalCode"),"EL202QL");           //insert postcode
+        sendTextToElement(By.id("BillingNewAddress_Address1"),"madison height ");   //insert address
+        sendTextToElement(By.id("BillingNewAddress_ZipPostalCode"),"314034");           //insert postcode
         sendTextToElement(By.id("BillingNewAddress_PhoneNumber"),"09828127782");     //enter user phone number
         Thread.sleep(2000);
         //2.23 Click on “CONTINUE”
@@ -125,11 +125,11 @@ public class TestSuite extends Utility {
         //2.27 Select “Master card” From Select credit card dropdown
         clickOnElement(By.xpath("//body/div[6]/div[3]/div[1]/div[1]/div[1]/div[2]/ol[1]/li[4]/div[2]/div[1]/button[1]"));
         //2.28 Fill all the details
-        sendTextToElement(By.id("CardholderName"),"Shubham");
+        sendTextToElement(By.id("CardholderName"),"Manini");
         sendTextToElement(By.id("CardNumber"),"5413330089010640");
         selectByValueFromDropDown(By.id("ExpireMonth"),"10");
         Thread.sleep(1000);
-        selectByValueFromDropDown(By.id("ExpireYear"),"2028");
+        selectByValueFromDropDown(By.id("ExpireYear"),"2026");
         sendTextToElement(By.id("CardCode"),"123");
 
         //2.29 Click on “CONTINUE”
